@@ -1,15 +1,13 @@
 import { useContext } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-
-// Notice we bring in AuthContext (the radio channel) instead of useAuth!
 import { AuthProvider, AuthContext } from './context/authcontext';
 
 import Login from './pages/login';
 import Dashboard from './pages/dashboard';
 
-// 🛑 THE BOUNCER: This component protects the Vault
+//  This component protects the Vault
 function ProtectedRoute({ children }) {
-  // THE RAW WAY: We manually tune into the station to check security clearance
+  // just manually tune into the station to check security clearance
   const { isAuthenticated } = useContext(AuthContext); 
 
   if (!isAuthenticated) {
@@ -23,7 +21,7 @@ function ProtectedRoute({ children }) {
 
 export default function App() {
   return (
-    // We wrap the whole app in the Provider so every page hears the broadcast
+    // wrap the whole app in the Provider so every page hears the broadcast///api context
     <AuthProvider>
       <Router>
         <Routes>

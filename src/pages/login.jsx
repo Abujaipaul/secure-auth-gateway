@@ -3,20 +3,19 @@ import { useNavigate } from 'react-router-dom';
 import { AuthContext } from '../context/authcontext';
 
 export default function Login() {
-  // 1. THE RAW WAY: We manually tune into the AuthContext radio station to grab the 'login' function
+ 
   const { login } = useContext(AuthContext);
-  
-  // 2. React Router's teleportation tool
+  // 2. React Router navigate
   const navigate = useNavigate();
 
   function handleLogin(event) {
-    // Stop the form from doing its default behavior (refreshing the whole page)
+    // Stop the form from doing its default behavior
     event.preventDefault(); 
-    
-    // 1. Change the global security state to true!
+
+    // Change the global security state to true
     login(); 
     
-    // 2. Teleport the user to the Dashboard!
+    // Teleport the user to the Dashboard once login is initiated
     navigate('/dashboard'); 
   }
 

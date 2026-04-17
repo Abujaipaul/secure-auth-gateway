@@ -13,14 +13,14 @@ export function AuthProvider({ children }) {
 
   function login() {
     setIsAuthenticated(true);
-    // Drop a token into the browser's memory
+    // Drop a token into the browser memory
     localStorage.setItem('secureVaultStatus', 'unlocked'); 
     console.log("Vault Unlocked. Token saved.");
   }
 
   function logout() {
     setIsAuthenticated(false);
-    // Destroy the token in the browser's memory
+    // Destroy the token in the browser memory
     localStorage.removeItem('secureVaultStatus'); 
     console.log("Vault Locked. Token destroyed.");
   }
