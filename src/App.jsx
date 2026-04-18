@@ -42,7 +42,7 @@ export default function App() {
             <div style={{ padding: '50px', textAlign: 'center', color: 'black' }}>
               <h2> 404: Vault Not Found</h2>
               <p>You are trying to access a secure area that doesn't exist.</p>
-              <Link to="/">Go back to Login</Link>
+              <Link to="/" style={{ color: '#ef4444', fontWeight: 'bold', textDecoration: 'none' }}>Go back to Login</Link>
             </div>
           } />
         </Routes>
