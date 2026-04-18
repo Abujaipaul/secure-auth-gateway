@@ -11,7 +11,7 @@ A modern, single-page React application built to demonstrate enterprise-level fr
 * **Global State Management (Zero Prop-Drilling):** Built a scalable authentication engine from scratch using the **React Context API** (`createContext`, `useContext`) to broadcast login state across the entire component tree.
 * **Persistent User Sessions:** Integrated browser `localStorage` directly into the Context Provider to ensure authentication status survives hard page refreshes—solving a critical real-world UX problem.
 * **High-Fidelity Data Visualization:** Implemented a responsive, Bloomberg-terminal style `<AreaChart>` using **Recharts**.
-    * Tracks 14-day mock market volatility for Aradel Holdings.
+    * Tracks 14-day historical market volatility for Aradel Holdings.
     * Features custom SVG linear gradients (`<defs>`) for a glowing UI effect.
     * Utilizes dynamic Y-axis domain mapping (`['dataMin', 'dataMax']`) for precise data scaling.
     * Includes a fully custom, dark-mode styled tooltip.
