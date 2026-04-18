@@ -3,7 +3,7 @@
 A modern, single-page React application built to demonstrate enterprise-level frontend architecture. This project showcases secure routing, global state management, persistent sessions, and high-fidelity data visualization for the fintech/energy sector.
 
 ## Live Demo
- 
+ https://auth-gateway.netlify.app/
 
 ## Core Engineering Features
 
