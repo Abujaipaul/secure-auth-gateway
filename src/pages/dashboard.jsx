@@ -5,20 +5,20 @@ import {
 } from 'recharts';
 
 const assetData = [
-  { day: 'Day 1', price: 4200 },
-  { day: 'Day 2', price: 4150 },
-  { day: 'Day 3', price: 4300 },
-  { day: 'Day 4', price: 4800 },
-  { day: 'Day 5', price: 4750 },
-  { day: 'Day 6', price: 4600 },
-  { day: 'Day 7', price: 5100 },
-  { day: 'Day 8', price: 5050 },
-  { day: 'Day 9', price: 5300 },
-  { day: 'Day 10', price: 5800 },
-  { day: 'Day 11', price: 5600 },
-  { day: 'Day 12', price: 5950 },
-  { day: 'Day 13', price: 5850 },
-  { day: 'Day 14', price: 6200 },
+  { day: 'Mar 27', price: 1260.00 },
+  { day: 'Mar 30', price: 1260.00 },
+  { day: 'Mar 31', price: 1260.00 },
+  { day: 'Apr 01', price: 1260.00 },
+  { day: 'Apr 02', price: 1260.00 },
+  { day: 'Apr 07', price: 1265.00 },
+  { day: 'Apr 08', price: 1265.00 },
+  { day: 'Apr 09', price: 1279.00 },
+  { day: 'Apr 10', price: 1279.00 },
+  { day: 'Apr 13', price: 1279.00 },
+  { day: 'Apr 14', price: 1279.00 },
+  { day: 'Apr 15', price: 1406.90 },
+  { day: 'Apr 16', price: 1547.50 },
+  { day: 'Apr 17', price: 1649.00 }
 ];
 
 export default function Dashboard() {
