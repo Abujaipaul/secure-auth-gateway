@@ -23,7 +23,7 @@ A modern, single-page React application built to demonstrate enterprise-level fr
 * **Data Visualization:** Recharts
 * **Styling:** Inline CSS / Modern Dark Mode UI
 
-##  Running it Locally
+##  Running it Locally easily..
 
 To spin up this architecture on your local machine:
 
